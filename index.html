@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Escape de Abstracción — Inicio</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Escape de Abstracción</h1>
+      <div class="toolbar">
+        <a class="btn" href="https://example.com" target="_blank" rel="noopener" style="display:none">Ayuda</a>
+      </div>
+    </header>
+
+    <main class="landing">
+      <section class="hero">
+        <h2>¡Bienvenid@s!</h2>
+        <p class="lead">
+          Este juego entrena <strong>abstracción</strong> y <strong>filtro de ruido</strong>:
+          hay muchas pistas, pero solo unas pocas son esenciales para abrir la puerta.
+        </p>
+
+        <div class="rules">
+          <h3>Reglas</h3>
+          <ol>
+            <li>Explorá la escena y tocá las <strong>lupas</strong> para ver pistas.</li>
+            <li>La <strong>puerta</strong> muestra un código de 3 palabras (A, B, C).</li>
+            <li>Algunas pistas son <em>ruido</em>. Otras son <strong>verdaderas</strong>.</li>
+            <li>Puede existir una <strong>pista compuesta</strong>: A→B y B→C. Debés deducir C.</li>
+            <li>Elegí la traducción final de cada palabra y probá tu solución.</li>
+          </ol>
+          <p class="note">Tus <strong>intentos</strong> y <strong>tiempo</strong> se guardan para esta partida.</p>
+        </div>
+
+        <div class="level-picker">
+          <label for="levelSelect">Nivel:</label>
+          <select id="levelSelect"></select>
+        </div>
+
+        <div class="start-actions">
+          <button id="btnStart" class="btn primary">Iniciar</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="helper">Consejo: ignorá el ruido y buscá relaciones clave.</div>
+      <div class="toolbar"></div>
+    </footer>
+  </div>
+
+  <script src="./js/menu.js"></script>
+</body>
+</html>

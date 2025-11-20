@@ -1,0 +1,19 @@
+# === ARCHIVOS GENERADOS DINÁMICAMENTE ===
+assets/qrcode_lan.png
+qr.html
+
+
+# === PYTHON CACHE ===
+__pycache__/
+*.pyc
+
+# === EDITOR ===
+.vscode/
+
+# === SISTEMA OPERATIVO ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === LOGS ===
+*.log

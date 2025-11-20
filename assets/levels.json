@@ -1,0 +1,62 @@
+{
+  "levels": [
+    {
+      "id": "Oficina-Penguin",
+      "scenes": 3,
+      "backgrounds": [
+        "../assets/puerta.jpg",
+        "../assets/oficina.jpg",
+        "../assets/lobby.jpg"
+      ],
+      "clueLayout": [
+        { "id": "c1", "x": 64, "y": 60, "scene": 0 },
+        { "id": "c2", "x": 8, "y": 35, "scene": 0 },
+        { "id": "c3", "x": 40, "y": 82, "scene": 0 },
+        { "id": "c9", "x": 5, "y": 77, "scene": 0 },
+        { "id": "c10", "x": 63, "y": 22, "scene": 0 },
+        { "id": "c11", "x": 90, "y": 80, "scene": 0 },
+
+        { "id": "c12", "x": 60, "y": 45, "scene": 1 },
+        { "id": "c13", "x": 62, "y": 75, "scene": 1 },
+        { "id": "c4", "x": 83, "y": 60, "scene": 1 },
+        { "id": "c5", "x": 15, "y": 75, "scene": 1 },
+
+        { "id": "c6", "x": 18, "y": 20, "scene": 2 },
+        { "id": "c7", "x": 55, "y": 55, "scene": 2 },
+        { "id": "c8", "x": 74, "y": 93, "scene": 2 },
+        { "id": "c14", "x": 35, "y": 55, "scene": 2 },
+        { "id": "c15", "x": 83, "y": 15, "scene": 2 },
+        { "id": "c16", "x": 44, "y": 82, "scene": 2 }
+      ],
+      "bank": [
+        { "key": "manzana",        "value": "banana"   },
+        { "key": "naranja",        "value": "zanahoria"},
+        { "key": "pera",           "value": "durazno"  },
+        { "key": "uva",            "value": "ciruela"  },
+        { "key": "kiwi",           "value": "mango"    },
+        { "key": "limón",          "value": "pomelo"   },
+        { "key": "melón",          "value": "sandía"   },
+        { "key": "coco",           "value": "piña"     },
+
+        { "key": "martillo",       "value": "clavo"    },
+        { "key": "destornillador", "value": "tornillo" },
+        { "key": "llave",          "value": "tuerca"   },
+        { "key": "sierra",         "value": "tabla"    },
+        { "key": "taladro",        "value": "broca"    },
+        { "key": "lija",           "value": "madera"   },
+        { "key": "tenaza",         "value": "alambre"  },
+        { "key": "cinta",          "value": "pegamento"},
+
+        { "key": "gato",           "value": "abeja"    },
+        { "key": "perro",          "value": "leon"     },
+        { "key": "raton",          "value": "elefante" },
+        { "key": "vaca",           "value": "cabra"    },
+        { "key": "gallina",        "value": "cerdo"    },
+        { "key": "oveja",          "value": "pez"      },
+        { "key": "tortuga",        "value": "serpiente"},
+        { "key": "mariposa",       "value": "pajaro"   }
+      ]
+    }
+
+  ]
+}
