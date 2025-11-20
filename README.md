@@ -97,7 +97,7 @@ Escape-Abstraccion-main/
 
 ---
 
-## 🕹Mecánicas de juego (detalle técnico)
+## Mecánicas de juego (detalle técnico)
 
 ### 1. Niveles y escenas
 
@@ -234,5 +234,4 @@ Esto abre la puerta a:
 **Alejandro Arriola**  
 Docente de programación y desarrollador de experiencias educativas jugables en constante formación.
 
-- Itch.io: https://alevarriola.itch.io
 - GitHub: [@alevarriola](https://github.com/alevarriola)
